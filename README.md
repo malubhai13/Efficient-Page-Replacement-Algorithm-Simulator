@@ -26,7 +26,7 @@ The **Efficient Page Replacement Algorithm Simulator** is a tool designed to sim
 
 1. Simulation of Page Replacement Algorithms
 Input: The simulator needs input such as:
-The number of frames (available memory frames).
+The number of frames (available memory frames)
 A sequence of page references (access pattern for the pages).
 Page Replacement Algorithms:
 You’ll simulate the different algorithms (FIFO, LRU, etc.) based on the input sequence of page references.

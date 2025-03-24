@@ -1,78 +1,47 @@
-# Efficient Page Replacement Algorithm Simulator - Simulation & Performance Analyzer
+# Efficient Page Replacement Algorithm Simulator
 
-## Overview
-This module is designed to **simulate and analyze the performance** of various **page replacement algorithms**. The goal is to compare different algorithms based on key performance metrics such as **page faults, execution time, and hit ratio**.
+## Project Overview
+The **Efficient Page Replacement Algorithm Simulator** is a tool designed to simulate and analyze the performance of various page replacement algorithms. The project provides a visual and statistical comparison of algorithms such as **FIFO, LRU, Optimal, and LFU**, helping users understand their efficiency in terms of page faults, execution time, and memory utilization.
+
+This simulator is particularly useful for students, researchers, and professionals studying **operating systems and memory management techniques**. It allows users to input custom parameters and observe how different algorithms behave under varying workloads.
 
 ## Features
-- Implements **FIFO, LRU, and Optimal** page replacement algorithms.
-- Accepts **custom input parameters** (number of frames, reference string, and algorithm choice).
-- **Simulates** page replacement scenarios.
-- **Analyzes performance** using:
-  - Page Fault Rate
-  - Execution Time
-  - Hit Ratio
-- **Visualizes results** with graphs (Matplotlib, Seaborn).
+- **Simulation of Page Replacement Algorithms:** Includes FIFO, LRU, Optimal, and LFU.
+- **Performance Analysis:** Tracks page faults, execution time, and hit/miss ratios.
+- **Customizable Input:** Allows users to set the number of frames and reference strings.
+- **Graphical and Statistical Output:** Visualizes algorithm performance for better understanding.
+- **Comparative Analysis:** Helps in determining the most efficient algorithm for a given scenario.
 
-## Algorithms Implemented
-1. **FIFO (First-In-First-Out)**
-2. **LRU (Least Recently Used)**
-3. **Optimal Page Replacement**
+## Technologies Used
+- **Python** (Tkinter for GUI, Matplotlib for visualization)
+- **Data Structures & Algorithms** (Queue, Stack, HashMaps for implementation)
+- **Performance Evaluation Metrics** (Page Faults, Execution Time, Hit/Miss Ratio)
 
-## Installation
-### Prerequisites
-Ensure you have **Python 3.x** installed. Install dependencies using:
-```bash
-pip install -r requirements.txt
-```
+## Installation & Usage
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/Efficient-Page-Replacement-Simulator.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd Efficient-Page-Replacement-Simulator
+   ```
+3. Install dependencies:
+   ```sh
+   pip install -r requirements.txt
+   ```
+4. Run the simulator:
+   ```sh
+   python main.py
+   ```
 
-## Usage
-Run the main script:
-```bash
-python main.py
-```
-Follow the on-screen instructions to input the number of frames, reference string, and algorithm selection.
+## Contribution
+Ansih Malu
 
-## Example
-Input:
-```
-Enter number of frames: 3
-Enter reference string: 7, 0, 1, 2, 0, 3, 4, 2, 3, 0, 3, 2, 1, 2, 0, 1, 7, 0, 1
-Choose Algorithm: FIFO
-```
-Output:
-```
-Page Faults: 12
-Hit Ratio: 36.84%
-```
-
-## Performance Visualization
-After execution, the program generates:
-- **Comparison graphs** in the `results/` folder.
-- Graphs showing **page faults vs. different algorithms**.
-
-## Project Structure
-```
-/Efficient-Page-Replacement-Simulator
-├── src/
-│   ├── fifo.py
-│   ├── lru.py
-│   ├── optimal.py
-│   ├── performance_analyzer.py
-│   ├── main.py
-├── results/
-│   ├── comparison_graphs.png
-├── README.md
-├── requirements.txt
-└── .gitignore
-```
-
-## Contributing
-- Fork the repository
-- Create a new branch (`git checkout -b feature-name`)
-- Commit changes (`git commit -m 'Add new feature'`)
-- Push to GitHub (`git push origin feature-name`)
-- Create a Pull Request
 
 ## License
-This project is licensed under the **MIT License**.
+This project is licensed under the MIT License.
+
+---
+Let me know if you need any further modifications! 🚀
 

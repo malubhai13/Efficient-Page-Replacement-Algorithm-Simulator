@@ -116,7 +116,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ##  Contact
 
 Anish Malu
-- GitHub: [[@malubhai13](https://github.com/malubahi13)](https://github.com/malubhai13)
+- GitHub: (https://github.com/malubhai13)
 - Email: anishmalu13@gmail.com
 
 ---

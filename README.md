@@ -36,13 +36,12 @@ The Efficient Page Replacement Algorithm Simulator is an interactive educational
 ##  Installation
 
 ### Prerequisites
-- Python 3.8+
 - pip package manager
 
 ### Setup Steps
 1. Clone the repository
 ```bash
-git clone https://github.com/[YourUsername]/page-replacement-simulator.git
+git clone https://github.com/malubhai13/page-replacement-simulator.git
 cd page-replacement-simulator
 ```
 
@@ -106,8 +105,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 Anish Malu 
 anishmalu13@gmail.com
 
-Project Link: [https://github.com/malubhai13/page-replacement-simulator](https://github.com/malubhai13/page-replacement-simulator)
-
+Project Link: 
 ---
 
 ##  Star the Repository!

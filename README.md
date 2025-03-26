@@ -71,12 +71,13 @@ This advanced web-based simulator provides an interactive exploration of page re
 - Basic understanding of operating system concepts
 
 ### Quick Start
-1. Clone the repository
-   ```bash
-   git clone https://github.com/malubhai13/Efficient-Page-Replacement-Algorithm-Simulator.git
-   ```
-2. Open `index.html` directly in your web browser
-3. No additional dependencies required
+1. **Download the repository**:
+   - You can download the repository as a ZIP file directly from [this link](https://github.com/malubhai13/Efficient-Page-Replacement-Algorithm-Simulator/archive/refs/heads/main.zip).
+   - Extract the contents to your local machine.
+
+2. **Open `index.html`** directly in your web browser.
+   
+3. **No additional dependencies required**. The application runs directly in the browser.
 
 ## Contributing
 
@@ -89,7 +90,7 @@ Contributions are welcome! Please follow these steps:
 
 ## Project Structure
 ```
-efficient-page-replacement-algorithm-simulator/
+Efficient-Page-Replacement-Algorithm-Simulator/
 │
 ├── index.html         # Main application interface
 ├── simulator.js       # Core simulation logic
@@ -124,5 +125,3 @@ Anish Malu
 **Star ⭐ this repository if you found it helpful!**
 
 ---
-
-Let me know if you need any further updates!

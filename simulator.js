@@ -122,12 +122,12 @@ function createPageFaultsChart(results) {
                 {
                     label: 'Page Faults',
                     data: Object.values(results).map(result => result.pageFaults),
-                    backgroundColor: 'rgba(54, 162, 235, 0.6)'
+                    backgroundColor: 'rgb(255, 174, 0)'
                 },
                 {
                     label: 'Fault Rate (%)',
                     data: Object.values(results).map(result => result.faultRate),
-                    backgroundColor: 'rgba(255, 99, 132, 0.6)'
+                    backgroundColor: 'rgba(0, 30, 255, 0.6)'
                 }
             ]
         },
@@ -165,9 +165,9 @@ function createPerformanceRadarChart(results) {
                     result.faultRate
                 ],
                 backgroundColor: [
-                    'rgba(54, 162, 235, 0.2)', 
-                    'rgba(255, 99, 132, 0.2)', 
-                    'rgba(75, 192, 192, 0.2)'
+                    'rgb(244, 0, 0)', 
+                    'rgb(251, 192, 0)', 
+                    'rgb(33, 0, 246)'
                 ][index]
             }))
         },

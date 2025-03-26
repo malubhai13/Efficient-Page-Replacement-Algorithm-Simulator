@@ -73,7 +73,7 @@ This advanced web-based simulator provides an interactive exploration of page re
 ### Quick Start
 1. Clone the repository
    ```bash
-   git clone https://github.com/malubhai13/efficient-page-replacement-algorithm-simulator.git
+   git clone https://github.com/malubhai13/Efficient-Page-Replacement-Algorithm-Simulator.git
    ```
 2. Open `index.html` directly in your web browser
 3. No additional dependencies required
